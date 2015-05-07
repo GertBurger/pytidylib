@@ -28,8 +28,8 @@ from .sink import create_sink, destroy_sink
 __all__ = ['Tidy', 'PersistentTidy']
 
 # Default search order for library names if nothing is passed in
-LIB_NAMES = ['libtidy', 'libtidy.so', 'libtidy-0.99.so.0', 'cygtidy-0-99-0',
-             'tidylib', 'libtidy.dylib', 'tidy']
+LIB_NAMES = ['libtidy5.so', 'libtidy', 'libtidy.so', 'libtidy-0.99.so.0',
+             'cygtidy-0-99-0', 'tidylib', 'libtidy.dylib', 'tidy']
 
 # Error code from library
 ENOMEM = -12
